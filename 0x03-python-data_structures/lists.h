@@ -21,4 +21,5 @@ void free_listint(listint_t *head);
 int is_palindrome(listint_t **head);
 def print_list_integer(my_list=[]);
 def element_at(my_list, idx);
+def delete_at(my_list=[], idx=0);
 #endif /* LISTS_H */
