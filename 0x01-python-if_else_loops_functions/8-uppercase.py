@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def uppercase(str):
+ uppercase(str):
    """Print a string in uppercase."""
    for c in str:
       if ord(c) >= 97 and ord(c) <= 122:
