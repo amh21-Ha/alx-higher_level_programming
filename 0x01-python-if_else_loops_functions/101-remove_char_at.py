@@ -1,5 +1,5 @@
 #!/usr/bin/python3
- remove_char_at(str, n):
+def remove_char_at(str, n):
     """Create a copy of the string without the character at position n."""
     if n < 0:
        return (str)
