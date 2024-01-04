@@ -4,4 +4,4 @@ if __name__ == "__main__":
     sum_var = 0
     for i in range(1, len(argv)):
         sum_var += int(argv[i])
-    print("{:d}".format(sum_var))
+    print("{}".format(sum_var))
