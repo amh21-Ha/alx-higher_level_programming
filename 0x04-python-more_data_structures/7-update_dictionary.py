@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def update_dictionary(a_dictionary, key, value):
-    if key not in _dictionary:
+    if key not in a_dictionary:
         a_dictionary[key] = value
     else:
         for z in a_dictionary:
