@@ -1,10 +1,18 @@
 #!/usr/bin/python3
-"""Square Class
-
-This class don't do anything for the moment
-
-"""
+"""This module contains a class that represents a square."""
 
 
 class Square:
-    pass
+    """An empty class that represents a square.
+
+    Attributes:
+        None
+    """
+
+    def __init__(self):
+        """Initializes a square object.
+
+        Args:
+            None
+        """
+        pass
