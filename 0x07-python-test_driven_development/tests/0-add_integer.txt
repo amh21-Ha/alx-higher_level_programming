@@ -1,0 +1,12 @@
+>>> add_integer(1, 2)
+3
+>>> add_integer(100.3, -2)
+98
+>>> add_integer(4)
+102
+>>> add_integer("Hello", 3)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "0-add_integer.py", line 14, in add_integer
+    raise TypeError("a must be an integer")
+TypeError: a must be an integer
