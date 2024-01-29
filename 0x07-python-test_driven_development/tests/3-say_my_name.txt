@@ -1,0 +1,16 @@
+>>> import sys
+>>> sys.path.append('mydir')
+>>> import doctest
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+>>> say_my_name("Alice")
+My name is Alice
+>>> say_my_name("Bob", "Smith")
+My name is Bob Smith
+>>> say_my_name(42)
+Traceback (most recent call last):
+  ...
+TypeError: first_name must be a string
+>>> say_my_name("Charlie", 3.14)
+Traceback (most recent call last):
+  ...
+TypeError: last_name must be a string
