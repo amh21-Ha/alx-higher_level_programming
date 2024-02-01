@@ -1,6 +1,6 @@
 >>> import sys
 >>> sys.path.append('mydir')
->>> lazy_matrix_mul = __import__('101-lazy_matrix_mul'.lazy_matrix_mul)
+>>> lazy_matrix_mul = __import__('101-lazy_matrix_mul').lazy_matrix_mul
 >>> import doctest
 >>> doctest.testfile('./tests/101-lazy_mutrix_mul.txt', verbose=True)
 >>> lazy_matrix_mul([[1, 2], [3, 4]], [[5, 6], [7, 8]])
