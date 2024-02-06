@@ -1,0 +1,20 @@
+>>> Import the BaseGeometry class
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+>>>
+>>> # Create an instance of the class
+>>> bg = BaseGeometry()
+>>>
+>>> # Try to call the area method
+>>> bg.area()
+>>> # This should raise an Exception with the message "area() is not implemented"
+>>> 
+>>> # Try to call the integer_validator method with valid arguments
+>>> bg.integer_validator("my_int", 12)
+>>> # This should not raise any exception
+>>> 
+>>> # Try to call the integer_validator method with invalid arguments
+>>> bg.integer_validator("my_int", -1)
+>>> # This should raise a ValueError with the message "my_int must be greater than 0"
+>>> 
+>>> bg.integer_validator("my_int", "hello")
+>>> # This should raise a TypeError with the message "my_int must be an integer"
