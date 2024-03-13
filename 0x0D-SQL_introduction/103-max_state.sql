@@ -1,4 +1,4 @@
-mysql -h localhost -u root -p hbtn_0c_0 < path/to/your/table_dump.sql
+--mysql -h localhost -u root -p hbtn_0c_0 < path/to/your/table_dump.sql
 
 USE hbtn_0c_0;
 

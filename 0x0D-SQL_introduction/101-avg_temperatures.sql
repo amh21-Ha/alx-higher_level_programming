@@ -1,4 +1,4 @@
-mysql -h localhost -u root -p hbtn_0c_0 < tempratures.sql
+--mysql -h localhost -u root -p hbtn_0c_0 < tempratures.sql
 
 SELECT city, AVG(temperature) AS avg_temp
 FROM temperatures
